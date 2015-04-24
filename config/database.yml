@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  pool: 5
+
+development:
+  <<: *default
+  database: cowcamodb
+  username: cowcamo
+  password: cowcamo@123
+  host: localhost
+test:
+  <<: *default
+  database: cowcamo_test
+production:
+  <<: *default
+  database: cowcamo_production
+  username: cowcamo
+  password: cowcamo@123
+  host: localhost
