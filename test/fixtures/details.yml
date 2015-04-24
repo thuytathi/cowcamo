@@ -1,0 +1,45 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  floor_plan: MyString
+  area: MyString
+  balacony: MyString
+  structure: MyString
+  floor: MyString
+  total_unit: MyString
+  built_year: MyString
+  renovated_year: MyString
+  maneger_company: MyString
+  land_use_right: MyString
+  access: MyString
+  price: MyString
+  loan: MyString
+  maneger_cost: MyString
+  repair_reserve: MyString
+  other_cost: MyString
+  address: MyString
+  current_state: MyString
+  delivery: MyString
+  other: MyString
+
+two:
+  floor_plan: MyString
+  area: MyString
+  balacony: MyString
+  structure: MyString
+  floor: MyString
+  total_unit: MyString
+  built_year: MyString
+  renovated_year: MyString
+  maneger_company: MyString
+  land_use_right: MyString
+  access: MyString
+  price: MyString
+  loan: MyString
+  maneger_cost: MyString
+  repair_reserve: MyString
+  other_cost: MyString
+  address: MyString
+  current_state: MyString
+  delivery: MyString
+  other: MyString
