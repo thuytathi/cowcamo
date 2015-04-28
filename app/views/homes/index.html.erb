@@ -1,0 +1,37 @@
+<div class="slider-wrapper">
+  <ul class="bxslider">
+    <li>
+      <%= link_to image_tag('1.jpg'), '#' %>'
+      <%= content_tag :span, '一点ものの住まいに出会おう', class: 'custom-caption one' %>
+      <%= content_tag :span, '住まいの”物語”を集めた中古住宅のオンラインマーケット', class: 'custom-caption two' %>
+    </li>
+    <li>
+      <%= link_to image_tag('2.jpg'), '#' %>
+      <%= content_tag :span, '物件を掲載しませんか？', class: 'custom-caption one' %>
+      <%= content_tag :span, 'スペックに表れない物件の良さを引き出した記事をつくります。', class: 'custom-caption two' %>
+    </li>
+    <li>
+      <%= link_to image_tag('3.jpg'), '#' %>
+      <%= content_tag :span, '中古住宅から暮らしをつくる', class: 'custom-caption one' %>
+      <%= content_tag :span, ' 中古住宅を住みこなす、素敵な暮らしをちょっと拝見！', class: 'custom-caption two' %>
+    </li>
+  </ul>
+</div>
+
+<section class="search_bg">
+  <div class="container_12 search-box">
+    <div class="search-box-inner">
+      <h2>カウカモ掲載中の販売物件を探す！</h2>
+      <%= form_tag home_path method: 'get' do %>
+          <p>
+            <%= text_field_tag 'search', nil, placeholder: 'エリア・駅名・テイストetc.フリーワードで中古住宅を検索' %>
+            <%= submit_tag 'SEARCH' %>
+          </p>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+
+
+

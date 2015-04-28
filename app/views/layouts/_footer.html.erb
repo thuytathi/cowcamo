@@ -1,0 +1,48 @@
+<footer>
+  <div class='container_16'>
+    <div class='grid_3'>
+      <%= image_tag 'logo_vertical.png', id: 'logo_vertical', alt: '中古住宅のオンラインマーケット「cowcamo（カウカモ）」' %>
+    </div>
+    <div class='grid_4'>
+      <div class= 'menu-about-sub-nav-container'>
+        <ul id= 'menu-about-sub-nav' class='menu'>
+          <li id= 'menu-item-203' class= 'menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-203'>
+            <%= link_to 'cowcamoとは', home_path %>
+            <ul class = 'sub-menu'>
+              <li id= 'menu-item-207' class= 'menu-item menu-item-type-post_type menu-item-object-page menu-item-207'>
+                <%= link_to '運営メンバー', '#'%>
+              </li>
+              <li id= 'menu-item-206' class= 'menu-item menu-item-type-post_type menu-item-object-page menu-item-206'>
+                <%= link_to '採用情報', '#'%>
+            </ul>
+          </li>
+          <li id='menu-item-208' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-208'>
+            <%= link_to '物件掲載について', '#'%>
+          </li>
+          <li id='menu-item-204' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-204'>
+            <%= link_to 'お問い合わせ','#'%>
+            <ul class="sub-menu">
+              <li id= 'menu-item-205' class= 'menu-item menu-item-type-post_type menu-item-object-page menu-item-205'>
+                <%= link_to 'プライバシーポリシー', '#'%>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class='facebookContainer grid_9'>
+      <div id= 'facebook'>
+        <div fb-iframe-plugin-query="app_id=&amp;color_scheme=light&amp;container_width=520&amp;header=false&amp;height=240&amp;href=https%3A%2F%2Fwww.facebook.com%2Fcowcamo&amp;locale=en_US&amp;sdk=joey&amp;show_border=false&amp;show_faces=true&amp;stream=false&amp;width=520" fb-xfbml-state="rendered" class="fb-like-box fb_iframe_widget" data-href="https://www.facebook.com/cowcamo" data-width="520px" data-height="240px" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false">
+          <span style="vertical-align: bottom; width: 520px; height: 240px;"><iframe class="" src="http://www.facebook.com/v2.0/plugins/like_box.php?app_id=&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FKvoNGODIqPG.js%3Fversion%3D41%23cb%3Dfdfc286689da6e%26domain%3Dcowcamo.jp%26origin%3Dhttp%253A%252F%252Fcowcamo.jp%252Ff350c148d02a9f2%26relation%3Dparent.parent&amp;color_scheme=light&amp;container_width=520&amp;header=false&amp;height=240&amp;href=https%3A%2F%2Fwww.facebook.com%2Fcowcamo&amp;locale=en_US&amp;sdk=joey&amp;show_border=false&amp;show_faces=true&amp;stream=false&amp;width=520" style="border: medium none; visibility: visible; width: 520px; height: 240px;" title="fb:like_box Facebook Social Plugin" scrolling="no" allowfullscreen="true" allowtransparency="true" name="f2ca68a57f00ac4" height="240px" width="520px" frameborder="0"></iframe></span>
+        </div>
+      </div>
+    </div>
+    <div class= 'clear'></div>
+  </div>
+
+  <p id= 'produced'> produced by
+    <%= link_to image_tag('tsukuruba_logo.png',:border=>0 , alt: 'logo', size: '23x30' ,class: 'original-width' ) ,'#' %>
+  </p>
+
+</footer>
