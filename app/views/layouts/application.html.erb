@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Cowcamo</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <title><%= full_title(yield(:title)) %></title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
 
-<%= yield %>
+<body class = 'home blog'>
+<div id = 'wholeContainer'>
+  <%= render 'layouts/header' %>
 
+  <section id = "mainContainer">
+    <%= yield %>
+
+    <%= link_to '#', id: 'urukamo' do %>
+        <p><span class = 'small'>オーナー様・仲介会社様へ</span><br>あなたの物件も掲載しませんか？<br><span class = 'x-small btn-border'>CLICK</span>
+        </p>
+    <% end %>
+
+    <%= render 'layouts/footer' %>
+  </section>
+</div>
 </body>
 </html>

@@ -43,3 +43,8 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'bootstrap-sass'
+gem 'bootstrap-will_paginate'
+gem 'bxslider-rails'
+
+
