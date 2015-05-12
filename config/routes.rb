@@ -1,5 +1,18 @@
 Rails.application.routes.draw do
 
+  namespace :admin do
+  get 'users/new'
+  get 'users/create'
+  get 'users/edit'
+  get 'users/update'
+  get 'users/index'
+  get 'users/show'
+  get 'users/destroy'
+  resources :users
+
+  end
+
+
   get 'home' => 'homes#index'
   get 'signup' =>'users#new'
 
