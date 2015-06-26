@@ -22,7 +22,7 @@ class CreateDetails < ActiveRecord::Migration
       t.string :delivery
       t.string :other
 
-      t.timestamps null: false
+      t.timestamps null: falseocp
     end
   end
 end
