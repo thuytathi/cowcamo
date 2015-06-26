@@ -2,10 +2,10 @@
 
 one:
   name: MyString
-  introduction: MyText
   email: MyString
+  introduction: MyString
 
 two:
   name: MyString
-  introduction: MyText
   email: MyString
+  introduction: MyString
